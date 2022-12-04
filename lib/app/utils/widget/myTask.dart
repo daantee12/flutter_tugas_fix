@@ -12,7 +12,7 @@ class MyTask extends SideBar{
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 160,
+      height: 185,
       child: ListView(
         clipBehavior: Clip.antiAlias,
         scrollDirection: Axis.horizontal,

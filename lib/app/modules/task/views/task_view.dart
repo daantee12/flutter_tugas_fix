@@ -57,7 +57,7 @@ class TaskView extends GetView<TaskController> {final GlobalKey<ScaffoldState> _
                   fontSize: 20, color: AppColors.primaryText),
                 ),
               Text(
-                'Manage Task Made Easy with Friends',
+                'Manage Task Made Easy',
                   style: TextStyle(
                     fontSize: 13, color: AppColors.primaryText),
                   ),

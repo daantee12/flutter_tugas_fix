@@ -47,7 +47,7 @@ class HomeView extends GetView<HomeController> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [Text('Task Management',style:TextStyle(fontSize: 20, color: AppColors.primaryText),
           ),
-          Text('Manage task made easy with friends',style: TextStyle(fontSize: 14, color: AppColors.primaryText),
+          Text('Manage task made easy',style: TextStyle(fontSize: 14, color: AppColors.primaryText),
           ),
           ],
           ),

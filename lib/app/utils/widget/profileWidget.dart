@@ -54,19 +54,19 @@ class ProfileWidget extends StatelessWidget {
       child: Column(
       children: [
         SizedBox(
-      height: 20,
+      height: 10,
       ),
     ClipRRect(
          child: CircleAvatar(
           backgroundColor: Colors.amber,
-          radius: 100,
+          radius: 150,
           foregroundImage: NetworkImage(
             'https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/09/27/08/jennifer-lawrence.jpg?quality=75&width=982&height=726&auto=webp%27',
          ),
          ),
     ),
     SizedBox(
-      height: 20,
+      height: 10,
       ),
     Center(
       child: Column(
