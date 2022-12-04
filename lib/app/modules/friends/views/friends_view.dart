@@ -6,6 +6,7 @@ import 'package:flutter_tugas_fix/app/routes/app_pages.dart';
 import 'package:flutter_tugas_fix/app/utils/style/AppColors.dart';
 import 'package:flutter_tugas_fix/app/utils/widget/SideBar.dart';
 import 'package:flutter_tugas_fix/app/utils/widget/header.dart';
+import 'package:unicons/unicons.dart';
 
 import '../controllers/friends_controller.dart';
 
@@ -66,7 +67,7 @@ class FriendsView extends GetView<FriendsController> {
           ),
           const Spacer(),
           const Icon (
-            Ionicons.notifications, 
+            UniconsLine.bell, 
                 color: AppColors.primaryText,
             ),
             const SizedBox(
@@ -145,7 +146,7 @@ class FriendsView extends GetView<FriendsController> {
                                         ),
                                       ),
                                     child: 
-                                    Icon(Ionicons.add_circle_outline,)
+                                    Icon(UniconsLine.abacus,)
                                     ),
                                   ),
                                 ),

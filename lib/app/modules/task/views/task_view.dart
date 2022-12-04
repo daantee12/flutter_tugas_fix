@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'package:ionicons/ionicons.dart';
 import 'package:flutter_tugas_fix/app/utils/style/AppColors.dart';
 import 'package:flutter_tugas_fix/app/utils/widget/SideBar.dart';
 import 'package:flutter_tugas_fix/app/utils/widget/header.dart';
+import 'package:unicons/unicons.dart';
 
 import '../controllers/task_controller.dart';
 
@@ -64,7 +64,7 @@ class TaskView extends GetView<TaskController> {final GlobalKey<ScaffoldState> _
           ),
           const Spacer(),
           const Icon (
-            Ionicons.notifications, 
+            UniconsLine.bell, 
                 color: AppColors.primaryText,
             ),
             const SizedBox(
@@ -201,7 +201,7 @@ class TaskView extends GetView<TaskController> {final GlobalKey<ScaffoldState> _
               );
             },
             label: Text('Add Task'), 
-            icon: Icon(Ionicons.add),
+            icon: Icon(UniconsLine.plus_circle),
           ),
         ),
        );

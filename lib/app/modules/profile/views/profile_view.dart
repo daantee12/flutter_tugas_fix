@@ -7,6 +7,7 @@ import 'package:flutter_tugas_fix/app/utils/widget/myTask.dart';
 import 'package:flutter_tugas_fix/app/utils/widget/profileWidget.dart';
 import 'package:flutter_tugas_fix/app/utils/style/AppColors.dart';
 import 'package:flutter_tugas_fix/app/utils/widget/SideBar.dart';
+import 'package:unicons/unicons.dart';
 
 import '../controllers/profile_controller.dart';
 
@@ -94,7 +95,7 @@ class ProfileView extends GetView<ProfileController> {
                         width: 5,
             ),
             Icon
-            (Ionicons.log_out_outline, 
+            (UniconsLine.align_alt, 
             color: AppColors.primaryText,
             size: 30,
           ),

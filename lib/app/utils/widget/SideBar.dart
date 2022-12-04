@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_connect/connect.dart';
-import 'package:ionicons/ionicons.dart';
 import 'package:flutter_tugas_fix/app/routes/app_pages.dart';
 import 'package:flutter_tugas_fix/app/utils/style/AppColors.dart';
+import 'package:unicons/unicons.dart';
 
 class SideBar extends StatelessWidget {
  const SideBar({
@@ -51,8 +51,8 @@ class SideBar extends StatelessWidget {
               : BoxDecoration(),
               child: Icon(
                 Get.currentRoute  == '/home' 
-                  ? Ionicons.desktop 
-                  : Ionicons.desktop_outline,
+                  ? UniconsLine.desktop 
+                  : UniconsLine.desktop,
                 color: AppColors.primaryText,
                 size: 30,
               ),
@@ -91,8 +91,8 @@ class SideBar extends StatelessWidget {
               : BoxDecoration(),
               child: Icon(
                 Get.currentRoute  == '/task' 
-                  ? Ionicons.cube
-                  : Ionicons.cube_outline,
+                  ? UniconsLine.box
+                  : UniconsLine.box,
                 color: AppColors.primaryText,
                 size: 30,
               ),
@@ -129,8 +129,8 @@ class SideBar extends StatelessWidget {
               : BoxDecoration(),
               child: Icon(
                 Get.currentRoute  == '/friends' 
-                  ? Ionicons.heart
-                  : Ionicons.heart_outline,
+                  ? UniconsLine.heart
+                  : UniconsLine.heart,
                 color: AppColors.primaryText,
                 size: 30,
               ),
@@ -166,8 +166,8 @@ class SideBar extends StatelessWidget {
               : BoxDecoration(),
               child: Icon(
                 Get.currentRoute  == '/profile' 
-                  ? Ionicons.person 
-                  : Ionicons.person_outline,
+                  ? UniconsLine.user
+                  : UniconsLine.user,
                 color: AppColors.primaryText,
                 size: 30,
               ),

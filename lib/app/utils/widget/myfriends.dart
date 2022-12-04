@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ionicons/ionicons.dart';
 import 'package:flutter_tugas_fix/app/routes/app_pages.dart';
 import 'package:flutter_tugas_fix/app/utils/style/AppColors.dart';
+import 'package:unicons/unicons.dart';
 
 class MyFriends extends StatelessWidget {
   const MyFriends({
@@ -31,7 +31,7 @@ class MyFriends extends StatelessWidget {
                                            ),
                                            ),
                        ),
-                      Icon(Ionicons.chevron_forward, color: AppColors.primaryText,)
+                      Icon(UniconsLine.arrow_right, color: AppColors.primaryText,)
                   ],
                       ),
                        SizedBox(height: 20,

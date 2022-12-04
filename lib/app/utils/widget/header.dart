@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ionicons/ionicons.dart';
 import 'package:flutter_tugas_fix/app/routes/app_pages.dart';
 import 'package:flutter_tugas_fix/app/utils/style/AppColors.dart';
+import 'package:unicons/unicons.dart';
 
 class header extends StatelessWidget {
   const header({
@@ -50,9 +50,9 @@ class header extends StatelessWidget {
                 borderSide: BorderSide(color: Colors.blue), 
               ),
               prefixIcon: Icon(
-                Icons.search,
+                UniconsLine.search,
                 color: Colors.black,),
-              hintText: 'Seacrh',
+              hintText: 'Search',
 
             ),
             ),
@@ -60,7 +60,7 @@ class header extends StatelessWidget {
           const SizedBox(
             width: 20,
             ),
-        const Icon(Ionicons.notifications, 
+        const Icon(UniconsLine.bell, 
               color: AppColors.primaryText),
         const SizedBox(
             width: 20,
@@ -93,7 +93,7 @@ class header extends StatelessWidget {
                         width: 5,
             ),
             Icon(
-              Ionicons.log_out_outline, 
+              UniconsLine.signout, 
             color: AppColors.primaryText,
             size: 30,
           ), 

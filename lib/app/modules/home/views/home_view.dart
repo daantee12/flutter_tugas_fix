@@ -4,7 +4,6 @@ import 'package:flutter_tugas_fix/app/utils/widget/myTask.dart';
 import 'package:flutter_tugas_fix/app/utils/widget/myfriends.dart';
 
 import 'package:get/get.dart';
-import 'package:ionicons/ionicons.dart';
 import 'package:flutter_tugas_fix/app/utils/widget/header.dart';
 import 'package:flutter_tugas_fix/app/routes/app_pages.dart';
 import 'package:flutter_tugas_fix/app/utils/style/AppColors.dart';
