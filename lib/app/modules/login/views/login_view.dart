@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_tugas_fix/app/data/controller/auth_controller.dart';
 import 'package:flutter_tugas_fix/app/routes/app_pages.dart';
 import 'package:get/get.dart';
 
 import '../controllers/login_controller.dart';
 
 class LoginView extends GetView<LoginController> {
-  const LoginView({Key? key}) : super(key: key);
+  final authC = Get.find<AuthController>();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -107,7 +108,7 @@ class LoginView extends GetView<LoginController> {
     height: Get.height * 0.5, 
     ),
     FloatingActionButton.extended(
-      onPressed: () => Get.toNamed(Routes.HOME), 
+      onPressed: () => authC.signInWithGoogle(), 
       label: const Text('Sign In With Google'),
       ),
             ]),
